@@ -4,15 +4,6 @@ import Select from "./Components/Select.jsx";
 import { RoundProvider } from "./Context/RoundContext.jsx";
 
 export default function App() {
-  const [round, setRound] = useState('none');
-
-  const roundAttributes = [
-    'none',
-    'sm',
-    'md',
-    'xl',
-    '2xl'
-  ];
 
   return (
     <RoundProvider>
